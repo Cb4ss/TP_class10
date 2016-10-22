@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+/*estilos*/
+/*hard reset*/
+button {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+  /* for button */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  outline: none; }
+  button::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+
+.btn {
+  border: 1px solid black;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: arial;
+  margin: 4px 2px;
+  border-radius: 4px;
+  cursor: crosshair; }
+
+h2 {
+  padding: 30px;
+  font-family: Arial; }
+
+.btn-link {
+  border: none; }
+  .btn-link a:link, .btn-link a:visited {
+    text-decoration: none;
+    color: #000;
+    cursor: crosshair; }
+  .btn-link a:hover {
+    text-decoration: underline;
+    cursor: crosshair; }
+
+.btn-default {
+  border-color: #e6e6e6;
+  background-color: #FFF; }
+  .btn-default:hover {
+    background: #ebebeb;
+    transition: all 0.2s ease; }
+
+.btn-primary {
+  border: none;
+  border-color: #285f8f;
+  background-color: #337AB7; }
+  .btn-primary:hover {
+    background: #2a6597;
+    transition: all 0.2s ease; }
+
+.btn-success {
+  border: none;
+  border-color: #158c31;
+  background-color: #1CB841; }
+  .btn-success:hover {
+    background: #179534;
+    transition: all 0.2s ease; }
+
+.btn-info {
+  border: none;
+  border-color: #31b0d5;
+  background-color: #5BC0DE; }
+  .btn-info:hover {
+    background: #39b3d7;
+    transition: all 0.2s ease; }
+
+.btn-warning {
+  border: none;
+  border-color: #de8a13;
+  background-color: #EEA236; }
+  .btn-warning:hover {
+    background: #e89014;
+    transition: all 0.2s ease; }
+
+.btn-danger {
+  border: none;
+  border-color: #c9302c;
+  background-color: #D9534F; }
+  .btn-danger:hover {
+    background: #d2322d;
+    transition: all 0.2s ease; }
+
+.btn-lg {
+  font-size: 150%; }
+
+.btn-sm {
+  font-size: 85%; }
+
+.btn-xs {
+  font-size: 70%; }
+
+/*# sourceMappingURL=principal.css.map */
